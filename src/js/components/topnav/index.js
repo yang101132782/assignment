@@ -1,12 +1,10 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-
 import './style.scss'
 import FontAwesome from '../fontawesome'
 
 function TopNav() {
-    
   return (
     <nav>
       <ul className="menu">
@@ -25,9 +23,7 @@ function TopNav() {
           </NavLink>
         </li>
         <li className="item">
-          <NavLink to="/studys">
-            CASE STUDY
-          </NavLink>
+          <NavLink to="/studys">CASE STUDY</NavLink>
         </li>
         <li className="item">
           <NavLink to="/portfolio">PORTFOLIO</NavLink>

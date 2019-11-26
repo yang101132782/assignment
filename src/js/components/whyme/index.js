@@ -4,7 +4,6 @@ import SpinnyIcon from '../spinnyicon'
 import './style.scss'
 
 function WhyMe() {
-
   return (
     <div className="why-me">
       <h1>MY PHILOSOPHY</h1>

@@ -6,7 +6,7 @@ import './styles.scss'
 function Placeholder() {
   const { pathname } = location
   const currentPage = pathname === '/' ? 'home' : pathname.substr(1)
-  
+
   return (
     <div id="coming-soon">
       <p>{`soon this will be the ${currentPage} page`}</p>
